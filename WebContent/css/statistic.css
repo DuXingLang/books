@@ -1,0 +1,62 @@
+*{padding:0px;margin: 0px;font:14px normal "microsoft yahei";}
+a{text-decoration:none;}
+#tabs {
+	width: 800px;
+	padding: 20px;
+	margin: 20px auto;
+	background-color: #6FB9CB;
+}
+#tabs .title{
+	text-align:center;
+	margin-bottom: 20px;
+	font-size:20px;
+	color:#fff;
+}
+#tabs ul{
+	list-style:none;
+	display: block;
+	height:30px;
+	line-height:30px;
+	border-bottom:2px saddlebrown solid;
+	margin-top:10px;
+}
+#tabs ul li{
+	background:#fff;
+	cursor:pointer;
+	float:left;
+	list-style:none;
+	height:28px;
+	line-height:28px;
+	margin:0px 5px;
+	border:1px solid #aaaaaa;
+	border-bottom:none;
+	display:inline-block;
+	width:60px;
+	text-align: center;
+}
+#tabs ul li.on{
+	border:2px solid saddlebrown;
+	border-bottom: 2px solid #fff;
+}
+#tabs div{
+	border:1px solid #336699;
+	border-top:none;
+	padding:5px;
+}
+.hide{
+	display: none;
+}
+.getback{
+	position:relative;
+	display:block;
+	border:1px #999 solid;
+	width:60px;
+	height:38px;
+	line-height:38px;
+	text-align:center;
+	margin-top:20px;
+	border-radius:5px;
+	background-color:#fff;
+	left:50%;
+	margin-left:-55px;
+}

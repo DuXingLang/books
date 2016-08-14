@@ -1,0 +1,150 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+	font-family:"Microsoft Yahei";
+	font-size:14px;
+}
+a{
+	text-decoration:none;
+}
+.header{
+	width:800px;
+	height:80px;
+	position:relative;
+	z-index:100;
+	border-bottom:1px #999 solid;
+	background-color:#fff;
+	left:50%;
+	margin-left:-400px;
+}
+.title{
+	width:100%;
+	height:40px;
+	font-size:20px;
+	text-align:center;
+	line-height:40px;
+}
+.header span{
+	display:inline-block;
+	width:60px;
+	height:40px;
+	line-height:40px;
+	position:absolute;
+}
+.header.info{
+	left:100px;
+}
+.header.price{
+	left:500px;
+}
+.header.count{
+	right:0;
+}
+.null{
+	display:block;
+	width:800px;
+	height:300px;
+	position:relative;
+	left:50%;
+	margin-left:-400px;
+	text-align:center;
+	line-height:300px;
+	font-size:20px;
+}
+.main{
+	position:relative;
+	width:800px;
+	left:50%;
+	margin-left:-400px;
+}
+.book{
+	position:relative;
+	width:100%;
+	height:160px;
+	padding:20px;
+	border-bottom:1px #999 solid;
+}
+.book img{
+	display:inline-block;
+	width:128px;
+	height:160px;
+	float:left;
+}
+.bookinfo{
+	float:left;
+	display:inline-block;
+	margin-left:10px;
+	height:160px;
+}
+.bookinfo p{
+	display:block;
+	height:40px;
+	width:100%;
+}
+.bookinfo p span{
+	display:inline-block;
+	position:absolute;
+	height:40px;
+	line-height:40px;
+}
+.bookinfo .price{
+	position:relative;
+	left:330px;
+	color:#F00;
+}
+.bookinfo .num{
+	position:absolute;
+	right:40px;
+}
+.bookinfo .bookAuthor,.bookPublish,.bookPrice,.delete{
+	display:block;
+	height:40px;
+	line-height:40px;
+}
+.bookinfo .delete{
+	position:absolute;
+	right:20px;
+}
+.footer{
+	width:100%;
+	height:40px;
+}
+.footer-1,footer-2{
+	display:block;
+	height:40px;
+	position:relative;
+}
+.footer-1.money,.footer-1.pay{
+	display:inline-block;
+	position:absolute;
+}
+.footer-1.money{
+	right:100px;
+	height:40px;
+	line-height:40px;
+}
+.footer-1.pay{
+	right:15px;
+	width:40px;
+	height:30px;
+	border:1px #999 solid;
+	margin:4px 0;
+	text-align:center;
+	line-height:30px;
+}
+.footer-2{
+	position:relative;
+	width:400px;
+	left:50%;
+	margin-left:-100px;
+	}
+.footer-2 a{
+	display:inline-block;
+	height:38px;
+	border:1px #999 solid;
+	width:80px;
+	margin-right:100px;
+	text-align:center;
+	line-height:38px;
+}

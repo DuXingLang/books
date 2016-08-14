@@ -1,0 +1,130 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+	font-family:"Microsoft Yahei";
+	font-size:14px;
+}
+a{
+	text-decoration:none;
+}
+.header{
+	position:relative;
+	width:830px;
+	height:60px;
+	position:fixed;
+	z-index:100;
+	border-bottom:1px #999 solid;
+	background-color:#fff;
+	left:50%;
+	margin-left:-415px;
+}
+.title{
+	width:100%;
+	height:40px;
+	font-size:20px;
+	text-align:center;
+	line-height:40px;
+}
+.header .getback{
+	display:inline-block;
+	height:20px;
+	line-height:20px;
+	margin:0 10px;
+	text-decoration:none;
+	position:absolute;
+	right:20px;
+}
+#count{
+	display:none;
+}
+.main-1{
+	position:relative;
+	width:830px;
+	height:500px;
+	top:90px;
+	left:50%;
+	margin-left:-415px;
+	background-color:#DBE3ED;
+}
+.main-1 img{
+	display:inline-block;
+	padding:20px;
+	width:300px;
+	height:420px;
+	float:left;
+}
+.main-1 .text{
+	float:left;
+	padding:20px;
+	display:inline-block;
+	margin-left:30px;
+	height:420px;
+}
+.main-1 .text span{
+	display:block;
+	height:60px;
+	line-height:30px;
+	font-size:18px;
+}
+.main-1 .text span.bookName{
+	font-size:20px;
+	font-weight:bold;
+}
+.main-1 .text em{
+	display:inline-block;
+	height:60px;
+	line-height:30px;
+	font-size:18px;
+}
+.main-1 .text em.bookCount{
+	position:absolute;
+	left:65%;
+}
+.main-1 .text b{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	text-align:center;
+	line-height:25px;
+	background-color:#999;
+	color:#fff;
+	border-radius:50%;
+	font-size:24px;
+}
+#num{
+	width:30px;
+	height:30px;
+	padding:0 10px;
+	margin:0 10px;
+}
+.main-1 .text .dogood{
+	display:block;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	border:1px #999 solid;
+	text-align:center;
+}
+.main-2{
+	position:absolute;
+	width:830px;
+	top:520px;
+	left:50%;
+	margin-left:-415px;
+}
+.main-2 h2{
+	display:block;
+	width:100%;
+	height:40px;
+	text-align:left;
+	line-height:40px;
+	border-bottom:1px #999 solid;
+}
+.mainbody p{
+	line-height:30px;
+}
+#myid{
+	display:none;
+}
